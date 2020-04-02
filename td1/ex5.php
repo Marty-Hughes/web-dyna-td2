@@ -13,6 +13,7 @@ $nbLignes=$_GET["l"]??10;
 $nbColonnes=$_GET["c"]??10;
 
 echo div("Test de message avec la fonction div");
+createHtmlTable($nbLignes,$nbColonnes);
 
 include "include/footer.php";
  ?>
