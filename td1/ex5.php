@@ -1,5 +1,5 @@
 <?php
-$title='Exercice n°4 (Itérations)';
+$title='Exercice n°4 ';
 include "include/header.php";
 include "include/fonctions.php";
 
