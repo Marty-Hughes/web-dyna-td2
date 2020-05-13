@@ -21,5 +21,8 @@ return array(
   'controllers\\SampleController::inscriptions' => array(
     array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "SampleController/inscriptions")
   ),
+  'controllers\\SampleController::logout' => array(
+    array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "SampleController/logout","methods"=>["get"])
+  ),
 );
 

@@ -24,7 +24,7 @@ class SampleController extends ControllerBase{
 
 
 	/**
-	 *@route("do/incription")
+	 *@route("do/incription""methods"=>["get"])
 	**/
 	public function post(){
 		
@@ -32,11 +32,31 @@ class SampleController extends ControllerBase{
 
 
 	/**
-	 *@route("SampleController/inscriptions")
+	 *@route("/inscriptions""methods"=>["get"])
 	**/
 	public function inscriptions(){
 		
 		$this->loadView('SampleController/inscriptions.html');
+
+	}
+
+
+	/**
+	 *@route("/logout","methods"=>["get"])
+	**/
+	public function logout(){
+		
+		$this->loadView('SampleController/logout.html');
+
+	}
+
+
+	/**
+	 *@route("/inscription/do/","methods"=>["post"])
+	**/
+	public function ValidateInscription(){
+		
+		$this->loadView('SampleController/ValidateInscription.html');
 
 	}
 
