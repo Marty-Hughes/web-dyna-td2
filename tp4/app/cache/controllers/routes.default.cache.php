@@ -1,0 +1,2 @@
+<?php
+return array("/_default/"=>array("get"=>array("controller"=>"controllers\\SampleController","action"=>"index","parameters"=>array(),"name"=>"Home","cache"=>false,"duration"=>false)),"/Samplecontroller/"=>array("controller"=>"controllers\\SampleController","action"=>"bouton","parameters"=>array(),"name"=>"SampleController-bouton","cache"=>false,"duration"=>false),"/do/Samplecontroller/"=>array("controller"=>"controllers\\SampleController","action"=>"post","parameters"=>array(),"name"=>"SampleController-post","cache"=>false,"duration"=>false));
