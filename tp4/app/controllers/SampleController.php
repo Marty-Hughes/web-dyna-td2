@@ -30,4 +30,14 @@ class SampleController extends ControllerBase{
 		
 	}
 
+
+	/**
+	 *@route("SampleController/inscriptions")
+	**/
+	public function inscriptions(){
+		
+		$this->loadView('SampleController/inscriptions.html');
+
+	}
+
 }

@@ -16,7 +16,10 @@ return array(
     array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "Samplecontroller")
   ),
   'controllers\\SampleController::post' => array(
-    array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "do/Samplecontroller")
+    array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "do/incription")
+  ),
+  'controllers\\SampleController::inscriptions' => array(
+    array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "SampleController/inscriptions")
   ),
 );
 
